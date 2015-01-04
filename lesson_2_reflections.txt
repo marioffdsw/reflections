@@ -30,3 +30,10 @@ How would branches help?
 	so you could make anything without worriying about the consecuenses to the main
 	project and if you succed with whatever you whant to achive, then you can release
 	at another project. Or maybe merge your ideas with the original ones.
+
+How do the diagrams help you visualize the branch structure?
+	
+	The diagrams are very helpfull because they are simple "graphic" forms to see
+	the different branches and commits in each one, and how are they related
+	or how are they different. so we have a high level view of all the features
+	we have been working on separately.
