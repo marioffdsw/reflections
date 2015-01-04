@@ -12,4 +12,13 @@ What value do you think it offers?
 	or just for play with the program but the staging area contains the files that
 	are really important to the project and we want to make a history of them.
 
-	
+How can you use the staging area to make sure you have one commit per logical change?
+
+	The staging area must be used to put in there every change that we have made to the
+	files in the working directory and then commit that changes to the repository, so, 
+	if I am changing various related files, becacuse all of them are related to a 
+	function (or single unit) I can put all those changes to the staging area
+	and commit all changes at once. Even if I was working on different files that may not
+	be related to a single unit I then just don't send that changes to the staging area
+	so those changes will not be on the commit.
+
