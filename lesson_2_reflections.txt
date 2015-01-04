@@ -1,0 +1,6 @@
+What happens when you initialize a repository? Why do you need to do it?
+
+	When a repository is initialized with command "git init" a hiden folder
+	called .git is created, in it is stored all the information about the
+	the history of the documents that there are in the parent folder of .git.
+

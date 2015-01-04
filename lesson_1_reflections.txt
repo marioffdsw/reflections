@@ -1,0 +1,83 @@
+How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+
+    Fill in your answer here
+
+How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+
+    Fill in your answer here
+
+What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+
+    Fill in your answer here
+
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+
+    Fill in your answer here
+
+How can you use the commands git log and git diff to view the history of files?
+
+    Fill in your answer here
+
+How might using version control make you more confident to make changes that
+could break something?
+
+    Fill in your answer here
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+    Fill in your answer here
+
+How did viewing a diff between two versions of a file help you see the bug that was introduced?
+
+	Because if the old version is rigth and the new one is wrong, and I know the differences
+	between those two files, I know that somewhere in the differences the error is, then I can
+	change the new version to be more like the old one, difference by difference, so I will
+	find the error wherever it is. Or just by looking at those differences I can find the error
+	easily than if I don't know where the differences are and I have to whatch every line even
+    good ones.
+
+How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+    
+    When people is working in a large project, its posible that someone could introduce a error somewhere in the code,
+    but don't be aware of it, until later in the project, so if you have to look for that error, it's easy to find
+    the error if you have a copy of the old, working code. and you can compare the new buggie code. So it is important
+    to have an history with different versions of the code.
+
+What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google docs does?
+    
+    pros: the different versions could be cousen to be meaningfull.
+        it could reduce the number of versions that we track.
+    cons: we need to remember to commit.
+        we need to learn how to use tools for this purpose.
+
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+
+    I think it is because the purpouses of some systems are different from others. so if you are looking for
+    some version control that could give you a mean to track the relationship between interrelated files, or
+    maybe dependant ones it would be useful to save multiple files in one commit. But if you are using different
+    documents or files to face different problems, I mean not interrelated or dependant themes it's bether to
+    treat them separately.
+
+How can you use the commands git log and git diff to view the history of files?
+    
+    With the comand "git log" we could see the different versions of the code, we could differenciate each other
+    by just watching at the id and "Message description" of each version. Then we could use command "git diff" to
+    see the differences between two versions of the code, we could see the added lines and the ones that has been
+    deleted.
+
+How might using version control make you more confident to make changes that could break something?
+
+    When we are working in a project we just could break things with a little change, but thanks to git,
+    we could revert easily the errors and return to a safe state of the project, so we can experiment
+    lots of things without worring about breaking the software.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+    I want to learn how to track a project with git. I mean I want to start a large programming practice
+    and make changes and make branching and make a lot of things without worriying about I new changes
+    could make the software break.
