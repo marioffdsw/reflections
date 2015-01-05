@@ -37,3 +37,12 @@ How do the diagrams help you visualize the branch structure?
 	the different branches and commits in each one, and how are they related
 	or how are they different. so we have a high level view of all the features
 	we have been working on separately.
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+	the result of merge branches is that the result will integrate the changes from both branches,
+	so if someone is working in funcition A and your partner is working on function B
+	when you merge the branches you will get both functions in the result.
+	they are well represented like a graph, because each commit is like a node that a state of the code.
+	and when you merge two branches you get that two nodes fusion their content to get a more complete version
+	which is represented as another state or node in the graph.
