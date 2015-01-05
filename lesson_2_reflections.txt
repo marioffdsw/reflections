@@ -46,3 +46,12 @@ What is the result of merging two branches together? Why do we represent it in t
 	they are well represented like a graph, because each commit is like a node that a state of the code.
 	and when you merge two branches you get that two nodes fusion their content to get a more complete version
 	which is represented as another state or node in the graph.
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+	the pros of automatic merging is that you spend less time revising and comparing different versions.
+	and you get a reasonable result, the cons is that you have no control of the place where the code
+	will end, and you must trust the version control sistem to do it well for you. Something difficult.
+	When you do manual merge two files or two commits, you have to spend a lot of time reviewing those files
+	and deciding what to preserve and what to delete, and talking to your partners. and testing again and
+	again if the program still runs like it is suposed to do.
