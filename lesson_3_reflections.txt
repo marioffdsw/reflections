@@ -16,3 +16,12 @@ Describe the differences between forks, clones, and branches. When would you use
 	have a local version to workin and colaborate with others. And a branch is just another path of a repository
 	that may be a test, an idea from a coder within the project and she doesn't want that her changes affect
 	the base project so she choose her own path without disturbing others.
+
+What is the benefit of having a copy of the last known state of the remote stored locally?
+
+	the benefit of having a copy of the las known state of the remote stored locally is that we
+	have all changes that other people do. So, if other people is working in something, and we are working
+	in something else that depends on that if we "copy" that changes from others in our local repo,
+	we could continue to working with all the necesary.
+
+	
