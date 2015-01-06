@@ -3,14 +3,17 @@ What happens when you initialize a repository? Why do you need to do it?
 	When a repository is initialized with command "git init" a hiden folder
 	called .git is created, in it is stored all the information about the
 	the history of the documents that there are in the parent folder of .git.
+	And we need to do it if we want that git help us versioning our code.
 
 How is the staging area different from the working directory and the repository? 
 What value do you think it offers?
 	
-	The staging area is the area when are placed the files that we want git to track.
-	the working directory may have a lot of others files that we use for testing
-	or just for play with the program but the staging area contains the files that
-	are really important to the project and we want to make a history of them.
+	The staging area is the area when are placed the changes in files that we want
+	git to track. The working directory may have a lot of others files or changes
+	that we use for testing, or just for "play" with the code but the staging area
+	contains the changes to the files that are really important to the project
+	and we want to make a history of them. While in the repository are just the
+	changes that we realy want to maintain for posible releases.
 
 How can you use the staging area to make sure you have one commit per logical change?
 
@@ -28,8 +31,8 @@ How would branches help?
 	When you are triying something new, or different at the original idea, or you just 
 	are making some practices to see what happens, it is usefull to use branches
 	so you could make anything without worriying about the consecuenses to the main
-	project and if you succed with whatever you whant to achive, then you can release
-	at another project. Or maybe merge your ideas with the original ones.
+	project and if you succed with whatever you whant to achive, then you can release that
+	as other project. Or maybe merge your ideas with the original ones.
 
 How do the diagrams help you visualize the branch structure?
 	
@@ -40,18 +43,19 @@ How do the diagrams help you visualize the branch structure?
 
 What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
 
-	the result of merge branches is that the result will integrate the changes from both branches,
+	the result of merge branches is that the merging node will integrate the changes from both branches,
 	so if someone is working in funcition A and your partner is working on function B
 	when you merge the branches you will get both functions in the result.
-	they are well represented like a graph, because each commit is like a node that a state of the code.
+	They are well represented like a graph, because each commit is like a node that represents a state of the code.
 	and when you merge two branches you get that two nodes fusion their content to get a more complete version
 	which is represented as another state or node in the graph.
 
 What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
 
-	the pros of automatic merging is that you spend less time revising and comparing different versions.
+	The pros of automatic merging is that you spend less time revising and comparing different versions.
 	and you get a reasonable result, the cons is that you have no control of the place where the code
-	will end, and you must trust the version control sistem to do it well for you. Something difficult.
-	When you do manual merge two files or two commits, you have to spend a lot of time reviewing those files
-	and deciding what to preserve and what to delete, and talking to your partners. and testing again and
-	again if the program still runs like it is suposed to do.
+	will end, and you must trust the version control system to do it well for you. Something difficult if you
+	have no experience with version control systems.
+	When you do manual merge, you have to spend a lot of time reviewing those files
+	and deciding what to preserve and what to discard, and talking to your partners to resolve that isues. 
+	and testing again and again if the program still runs like it is suposed to do.

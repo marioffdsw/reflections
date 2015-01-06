@@ -1,37 +1,3 @@
-How did viewing a diff between two versions of a file help you see the bug that
-was introduced?
-
-    Fill in your answer here
-
-How could having easy access to the entire history of a file make you a more
-efficient programmer in the long term?
-
-    Fill in your answer here
-
-What do you think are the pros and cons of manually choosing when to create a
-commit, like you do in Git, vs having versions automatically saved, like Google
-docs does?
-
-    Fill in your answer here
-
-Why do you think some version control systems, like Git, allow saving multiple
-files in one commit, while others, like Google Docs, treat each file separately?
-
-    Fill in your answer here
-
-How can you use the commands git log and git diff to view the history of files?
-
-    Fill in your answer here
-
-How might using version control make you more confident to make changes that
-could break something?
-
-    Fill in your answer here
-
-Now that you have your workspace set up, what do you want to try using Git for?
-
-    Fill in your answer here
-
 How did viewing a diff between two versions of a file help you see the bug that was introduced?
 
 	Because if the old version is rigth and the new one is wrong, and I know the differences
@@ -42,15 +8,22 @@ How did viewing a diff between two versions of a file help you see the bug that 
     good ones.
 
 How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
-    
+
+    I think that having access to the entire history is very helpful, because we could see all the changes that 
+    we have made to the code and know the consecuences for each one. And if we somewhere identify some problems we
+    could easily know when and fix it.
     When people is working in a large project, its posible that someone could introduce a error somewhere in the code,
     but don't be aware of it, until later in the project, so if you have to look for that error, it's easy to find
-    the error if you have a copy of the old, working code. and you can compare the new buggie code. So it is important
-    to have an history with different versions of the code.
+    the error if you have a copy of the old, working code. and you can compare the new buggy code.
 
 What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google docs does?
     
-    pros: the different versions could be cousen to be meaningfull.
+    I think that having the control over when to commit the changes give us the
+    power to decide what changes we want to make to the history, when we are coding
+    something we just like to test a feature or "play" with the program, so in automatic
+    version control sistems like google docs that unwise changes will be commited,
+    while in manual version control that changes will not be, unless we want.
+    pros: the different versions could be chosen to be meaningfull.
         it could reduce the number of versions that we track.
     cons: we need to remember to commit.
         we need to learn how to use tools for this purpose.
@@ -60,7 +33,7 @@ Why do you think some version control systems, like Git, allow saving multiple f
     I think it is because the purpouses of some systems are different from others. so if you are looking for
     some version control that could give you a mean to track the relationship between interrelated files, or
     maybe dependant ones it would be useful to save multiple files in one commit. But if you are using different
-    documents or files to face different problems, I mean not interrelated or dependant themes it's bether to
+    documents or files to face different problems, I mean not interrelated or dependant topics it's bether to
     treat them separately.
 
 How can you use the commands git log and git diff to view the history of files?
@@ -78,6 +51,6 @@ How might using version control make you more confident to make changes that cou
 
 Now that you have your workspace set up, what do you want to try using Git for?
 
-    I want to learn how to track a project with git. I mean I want to start a large programming practice
-    and make changes and make branching and make a lot of things without worriying about I new changes
-    could make the software break.
+    I want to learn how to track a programming project with git. I mean I want to start a large programming practice
+    with my partners and I want to stablish a more professional environment for software development. One that
+    enable us to colaborate effectively throughout the lifecicle of the project.
